@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a website for password Generatorto meet criteria of Javascript properties following accessibility standards.
+This is a website for a password Generator to meet criteria of Javascript properties following accessibility standards.
 
 It contains notes on HTML, CSS.
 
