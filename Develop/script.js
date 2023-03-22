@@ -57,6 +57,6 @@ function wPassword() {
      for (let i = 0; i < size; i++) { password += lPassword[Math.floor(Math.random() * len)] };
 
      //Linking JS to HTML file
-     document.getElementById("demo1").innerHTML = "Your Secure Password:";
+    // document.getElementById("demo1").innerHTML = "Your Secure Password:";
      document.getElementById("demo").innerHTML = password;
 }
