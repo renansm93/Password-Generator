@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+
+/*Header CSS Properties*/
 html,
 body,
 .wrapper {
@@ -30,6 +32,7 @@ header {
   color: hsl(206, 17%, 28%);
 }
 
+/*Card header and card body CSS Properties*/
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
@@ -41,9 +44,6 @@ header {
   max-width: 800px;
   padding: 30px 40px;
 }
-
-
-
 
 .card-header::after {
   content: " ";
@@ -71,6 +71,7 @@ header {
 
  }
 
+/*Card footer CSS Properties*/
 .card-footer {
   text-align: center;
 }
@@ -89,6 +90,7 @@ header {
   clear: both;
 }
 
+/*Button CSS Properties*/
 .btn {
   border: none;
   background-color: hsl(360, 91%, 36%);
@@ -134,6 +136,8 @@ button[disabled] {
   resize: none;
   overflow: hidden;
 }
+
+/*Media Queries CSS Properties*/
 
 @media (max-width: 690px) {
   .btn {
